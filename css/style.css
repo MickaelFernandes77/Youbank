@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Lato:wght@700&family=Montserrat&family=Roboto:ital,wght@1,500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Header */
+
+header {
+    background-color: #000;
+    font-family: 'Inter', sans-serif;
+}
+
+.nav-ul {
+    margin-left: 15%;
+}
+
+.ul-item {
+    text-decoration: none;
+    color: #fff;
+    height: 50px;
+}
+
+.ul-item:hover {
+    text-decoration: none;
+    color: #a4a1a1;
+    transition: 0.30s;
+}
+
+.btn-login {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-login:hover {
+    color: rgb(241, 237, 237);
+    transition: 0.30s;
+    text-decoration: none;
+}
+
+.btn-cad {
+    color: #000;
+    background-color: #fff;
+}
+
+.btn-cad:hover {
+    color: #000;
+    background-color: rgb(241, 237, 237);
+}
+
+.btn-menu {
+    color: #fff;
+    outline: none;
+}
+
+
+/* Home */
+
+.home {
+    background-color: #000;
+    font-family: 'Inter', sans-serif;
+}
+
+.home-title {
+    font-weight: bold;
+}
+
+.home-text {
+    font-weight: 360;
+    font-size: 17px;
+}
+
+.woman {
+    margin-left: 30%;
+}
+
+
+/* section */
+
+.section {
+    background-image: url('../assets/leaf.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Inter', sans-serif;
+}
+
+.section-title,
+.section-text,
+.section-text2 {
+    text-align: center;
+    color: #fff;
+}
+
+.section-title {
+    font-weight: bold;
+}
+
+
+/* caixa dos benefícios */
+
+.section-icons {
+    margin-left: 38%;
+}
+
+
+/* cartao */
+
+.card-bank {
+    background-color: rgb(200, 200, 200, 0.7);
+    width: 350px;
+    border-radius: 10px;
+    margin-left: 25%;
+    cursor: pointer;
+}
+
+.card-bank:hover {
+    transform: translateY(-10%);
+    transition: 0.50s;
+}
+
+.cartao-title {
+    margin-top: 4%;
+}
+
+
+/* taxa */
+
+.taxa-title {
+    margin-top: 1%;
+}
+
+
+/* 24 horas atendimento */
+
+.vinte-icon {
+    margin-top: 12%;
+}
+
+.vinte-title {
+    margin-top: 6.5%;
+}
+
+
+/* solicite seu cartão */
+
+.section2 {
+    margin-top: 10%;
+    font-family: 'Inter', sans-serif;
+}
+
+.section-title-2 {
+    font-weight: bold;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #000;
+    font-family: 'Inter', sans-serif;
+}
+
+.footer-list-icons {
+    color: #fff;
+}
+
+.footer-list-icons:hover {
+    color: rgb(207, 203, 203);
+    text-decoration: none;
+}
+
+.footer-list-title {
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-list-title:hover {
+    font-weight: bold;
+    color: rgb(241, 238, 238);
+    text-decoration: none;
+}
+
+.footer-list-itens {
+    color: #fff;
+}
+
+.footer-list-itens:hover {
+    color: #a4a1a1;
+    text-decoration: none;
+}
+
+@media (max-width: 575.98px) {
+    .cartao-title {
+        margin-top: 4%;
+    }
+    .section-icons {
+        margin-left: 15%;
+    }
+    /* taxa */
+    .taxa-title {
+        margin-top: 1%;
+    }
+    /* 24 horas atendimento */
+    .vinte-icon {
+        margin-top: 35%;
+        margin-left: 15px;
+    }
+    .vinte-title {
+        margin-top: 21.5%;
+    }
+    /* solicite seu cartão */
+    .section2 {
+        margin-top: 10%;
+        font-family: 'Inter', sans-serif;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .nav-ul {
+        margin-left: 10%;
+    }
+    .woman {
+        margin-left: 10%;
+    }
+    .section-icons {
+        margin-left: 22%;
+    }
+    /* taxa */
+    .taxa-title {
+        margin-top: 1%;
+    }
+    /* 24 horas atendimento */
+    .vinte-icon {
+        margin-top: 28%;
+        margin-left: 15px;
+    }
+    .vinte-title {
+        margin-top: 18%;
+    }
+    /* solicite seu cartão */
+    .section2 {
+        margin-top: 10%;
+        font-family: 'Inter', sans-serif;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .woman {
+        margin-left: 10%;
+    }
+    .section-icons {
+        margin-left: 32%;
+    }
+    /* 24 horas atendimento */
+    .vinte-icon {
+        margin-top: 20%;
+        margin-left: 52px;
+    }
+    .vinte-title {
+        margin-top: 11%;
+    }
+    .card-bank {
+        margin-left: 3%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* 24 horas atendimento */
+    .vinte-icon {
+        margin-top: 14%;
+        margin-left: 90px;
+    }
+    .vinte-title {
+        margin-top: 8%;
+    }
+}
+
+@media(min-width: 1200px) {
+    /* 24 horas atendimento */
+    .vinte-icon {
+        margin-top: 12%;
+        margin-left: 120px;
+    }
+    .vinte-title {
+        margin-top: 6.5%;
+    }
+}
